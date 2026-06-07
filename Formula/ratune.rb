@@ -8,18 +8,18 @@
 class Ratune < Formula
   desc "Terminal music player for Subsonic-compatible servers"
   homepage "https://github.com/acmagn/ratune"
-  version "0.10.0"
+  version "0.11.0"
   license "MIT"
   depends_on :macos
 
   on_arm do
     url "https://github.com/acmagn/ratune/releases/download/v#{version}/ratune-v#{version}-aarch64-apple-darwin.tar.gz"
-    sha256 "2e6c400ba11b7d5aacf34974b6a7b1c5b45ad47f913d98922653df166372120a"
+    sha256 "9da36d18675cbc3ce800c76cdf3934f999eea0c435750a639fa088c90f3b8b3a"
   end
 
   on_intel do
     url "https://github.com/acmagn/ratune/releases/download/v#{version}/ratune-v#{version}-x86_64-apple-darwin.tar.gz"
-    sha256 "d84f9e3f1301b1e946e4a15401ad5806be7493f93390cf1695a54f0102f794e6"
+    sha256 "3ece85ea08829b8eaeaf843b1d23d2abfaddc90aec84ca5fa2f814b965d4aae9"
   end
 
   def install
